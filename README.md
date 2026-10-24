@@ -10,3 +10,7 @@ Save optimised WebP files in `images/` as `name-640.webp`, `name-1024.webp`, `na
 
 ## Hero slideshow
 The three hero slides are in `index.html` (`<section class="hero">`). Copy a `<figure class="slide">` block to add more; dots and arrows appear automatically.
+
+## Deploying
+- **Render:** New → Blueprint (uses `render.yaml`), or New → Static Site with build command empty and publish directory `.`
+- **GitHub Pages / Netlify / any host:** upload or point to the repo root; `index.html` is the entry point.
